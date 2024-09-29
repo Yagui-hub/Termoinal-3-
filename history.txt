@@ -1,0 +1,30 @@
+  216  cat javascirpt_biarritz.csv 
+  217  grep -E "(Toulouse)" wilders.csv | grep "JavaScript" > javascript_biarritz_toulouse.csv 
+  218  grep -E "(Toulouse)" wilders.csv | grep "JavaScript" > javascript_toulouse.csv 
+  219  car javascript_toulouse.csv 
+  220  cat javascript_toulouse.csv 
+  221  grep -E "(Biarritz)" wilders.csv | grep "JavaScript" > javascript_biarritz.csv 
+  222  cat javascript_biarritz.csv 
+  223  cat javascript_toulouse.csv javascript_biarritz.csv > javascript_biarritz_toulouse.csv 
+  224  cat javascript_biarritz_toulouse.csv 
+  225  history | tail -n 20 > history.txt 
+  226  head history.txt 
+  227  history.txt 
+  228  Vincent,Sanchez,Biarritz,France,2019,JavaScript
+  229  Yves,Marie,Biarritz,France,2019,JavaScript
+  230  Alphonse,Leleu,Biarritz,France,2019,JavaScript
+  231  Laurence,Lemaire,Biarritz,France,2019,JavaScript
+  232  Marcel,Olivier,Biarritz,France,2019,JavaScript
+  233  Vincent,Sanchez,Biarritz,France,2019,JavaScript
+  234  Yves,Marie,Biarritz,France,2019,JavaScript
+  235  Alphonse,Leleu,Biarritz,France,2019,JavaScript
+  236  Laurence,Lemaire,Biarritz,France,2019,JavaScript
+  237  Marcel,Olivier,Biarritz,France,2019,JavaScript
+  238  cat > history.txt 
+  239  wc > history.txt
+  240  cat javascript_biarritz.csv javascript_toulouse.csv > tout.txt 
+  241  cat javascript_biarritz_toulouse.csv 
+  242  history | tail n-20 > history.txt 
+  243  history | tail -n 20 > history.txt 
+  244  cat javascript_biarritz_toulouse.csv 
+  245  history | tail -n 30 > history.txt 
